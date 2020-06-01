@@ -1,4 +1,4 @@
-# gcp-infra-cicd
+# GCP GitOps 
 This repo implements GitOps approach with GCP Cloud Build and Terraform/Terragrunt
 
 # NOTE 
