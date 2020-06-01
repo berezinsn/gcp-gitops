@@ -18,3 +18,7 @@ To start using SA, please, do the following:
    ```sh
    gcloud auth list
    ```
+5. Determine the project you'd like to work with
+   ```sh
+   gcloud config set project PROJECT_ID
+   ```
