@@ -1,7 +1,7 @@
 # GCP GitOps 
 This repo implements GitOps approach with GCP Cloud Build and Terraform/Terragrunt
 
-# NOTE 
+# Preparation note 
 To start using SA, please, do the following:
 
 1. Create GCP SA, grenerate the key, rename to account.json and place this in the root of the project in ./auth dir
@@ -21,4 +21,9 @@ To start using SA, please, do the following:
 5. Determine the project you'd like to work with
    ```sh
    gcloud config set project PROJECT_ID
+   ```
+6. Prepare a bucket for TF states with a versioning enabled
+   ```sh
+   PROJECT_ID=$(gcloud config get-value project)
+   gsutil mb gs://${PROJECT_ID}-tfstate
    ```
