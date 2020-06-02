@@ -21,3 +21,5 @@ cd ../prod
 terraform init
 terraform plan -var-file="terrafrom.tfvars"
 terraform apply -var-file="terrafrom.tfvars" -auto-approve
+
+#test commit
