@@ -28,3 +28,4 @@ To start using SA, please, do the following:
    gsutil mb gs://${PROJECT_ID}-tfstate
    gsutil versioning set on gs://${PROJECT_ID}-tfstate
    ```
+7. Use manage.sh file for local testing
