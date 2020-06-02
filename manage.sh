@@ -13,13 +13,14 @@ gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS
 gcloud auth list
 
 cd ./env/dev/ 
-terraform init 
-terraform plan -var-file="terrafrom.tfvars"
-terraform apply -var-file="terrafrom.tfvars" -auto-approve
+#terraform init 
+#terraform plan -var-file="terrafrom.tfvars"
+#terraform apply -var-file="terrafrom.tfvars" -auto-approve
+terraform destroy -var-file="terrafrom.tfvars" -auto-approve
 
 cd ../prod
-terraform init
-terraform plan -var-file="terrafrom.tfvars"
-terraform apply -var-file="terrafrom.tfvars" -auto-approve
+#terraform init
+#terraform plan -var-file="terrafrom.tfvars"
+#terraform apply -var-file="terrafrom.tfvars" -auto-approve
+terraform destroy -var-file="terrafrom.tfvars" -auto-approve
 
-#test commit
