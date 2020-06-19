@@ -34,4 +34,3 @@ To start using SA, please, do the following:
 Read the Cloud Build output log. If you job fails on the Plan step, please, check Cloud Build accout permissions.
 Cloud Build executes your builds using a service account, a special Google account that executes builds on your behalf. The email for the Cloud Build service account is [PROJECT_NUMBER]@cloudbuild.gserviceaccount.com
 
-# Test commit
