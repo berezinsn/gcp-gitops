@@ -35,4 +35,7 @@ Read the Cloud Build output log. If you job fails on the Plan step, please, chec
 Cloud Build executes your builds using a service account, a special Google account that executes builds on your behalf. The email for the Cloud Build service account is [PROJECT_NUMBER]@cloudbuild.gserviceaccount.com
 
 
-# test commit
+# Permissions of the custom Role for the Cloud Build
+
+- compute.networks.create
+
