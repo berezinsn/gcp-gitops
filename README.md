@@ -38,4 +38,4 @@ Cloud Build executes your builds using a service account, a special Google accou
 # Permissions of the custom Role for the Cloud Build
 
 - compute.networks.create
-
+- compute.networks.get
