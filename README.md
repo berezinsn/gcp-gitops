@@ -43,3 +43,4 @@ Cloud Build executes your builds using a service account, a special Google accou
 - compute.subnetworks.create
 - compute.networks.updatePolicy
 - compute.subnetworks.get
+- compute.subnetworks.delete
