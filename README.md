@@ -46,3 +46,10 @@ Cloud Build executes your builds using a service account, a special Google accou
 - compute.subnetworks.delete
 - compute.firewalls.create
 - compute.zones.get
+- compute.disks.create
+- compute.firewalls.get
+- compute.instances.create
+- compute.subnetworks.use
+- compute.subnetworks.useExternalIp
+- compute.instances.setMetadata
+- compute.instances.setTags
